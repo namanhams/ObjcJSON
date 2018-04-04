@@ -15,5 +15,5 @@ FOUNDATION_EXPORT double ObjcJSONVersionNumber;
 FOUNDATION_EXPORT const unsigned char ObjcJSONVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ObjcJSON/PublicHeader.h>
-
+#import <ObjcJSON/JSON.h>
 

@@ -10,6 +10,8 @@
 		9106690C20736474004CEF2B /* ObjcJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9106690220736474004CEF2B /* ObjcJSON.framework */; };
 		9106691120736474004CEF2B /* ObjcJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106691020736474004CEF2B /* ObjcJSONTests.m */; };
 		9106691320736474004CEF2B /* ObjcJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 9106690520736474004CEF2B /* ObjcJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9106691E20736491004CEF2B /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 9106691C20736491004CEF2B /* JSON.h */; };
+		9106691F20736491004CEF2B /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106691D20736491004CEF2B /* JSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		9106690B20736474004CEF2B /* ObjcJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjcJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9106691020736474004CEF2B /* ObjcJSONTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcJSONTests.m; sourceTree = "<group>"; };
 		9106691220736474004CEF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9106691C20736491004CEF2B /* JSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		9106691D20736491004CEF2B /* JSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				9106690520736474004CEF2B /* ObjcJSON.h */,
 				9106690620736474004CEF2B /* Info.plist */,
+				9106691C20736491004CEF2B /* JSON.h */,
+				9106691D20736491004CEF2B /* JSON.m */,
 			);
 			path = ObjcJSON;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9106691E20736491004CEF2B /* JSON.h in Headers */,
 				9106691320736474004CEF2B /* ObjcJSON.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9106691F20736491004CEF2B /* JSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
