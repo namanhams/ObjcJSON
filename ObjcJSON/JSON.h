@@ -24,9 +24,7 @@
 - (BOOL) boolValue;
 
 #pragma mark - Subscripting
-- (id _Nullable)objectAtIndexedSubscript:(int)idx;
-- (void)setObject:(id _Nullable)obj atIndexedSubscript:(int)idx;
-- (id _Nullable)objectForKeyedSubscript:(NSString * _Nonnull)key;
-- (void)setObject:(id _Nullable)obj forKeyedSubscript:(NSString * _Nonnull)key;
+- (JSON * _Nullable ) objectAtIndexedSubscript:(int)idx;
+- (JSON * _Nullable ) objectForKeyedSubscript:(NSString * _Nonnull)key;
 
 @end

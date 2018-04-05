@@ -102,17 +102,9 @@
     return nil;
 }
 
-- (void)setObject:(id)obj atIndexedSubscript:(int)idx {
-    // NSAssert(false, @"Not implemented");
-}
-
 - (id)objectForKeyedSubscript:(NSString *)key {
     NSDictionary *dict = self.dict;
     return dict[key];
-}
-
-- (void)setObject:(id)obj forKeyedSubscript:(NSString *)key {
-    // NSAssert(false, @"Not implemented");
 }
 
 @end

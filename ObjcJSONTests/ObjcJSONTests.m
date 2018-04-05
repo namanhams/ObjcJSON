@@ -107,6 +107,8 @@
     [self assertJSON:json[1] isString:@"a"];
     [self assertJSON:json[2][0] isPrimitiveValue:@(2)];
     [self assertJSON:json[2][1] isString:@"b"];
+    XCTAssertEqual(json[0].number, @(1));
+    XCTAssertEqual(json[1].string, @"a");
     XCTAssertNil(json[3]);
     XCTAssertNil(json[@"a"]);
     
